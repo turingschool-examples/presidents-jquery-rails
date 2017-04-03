@@ -1,3 +1,32 @@
-// Place all the styles related to the presidents controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+body {
+  background-color: white;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+td, th {
+  padding: 0.5em;
+  border: 1px solid #999;
+}
+
+th {
+  background-color: #CCC;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
