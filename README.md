@@ -1,24 +1,7 @@
-# README
+# Presidents on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Lesson repo for [jQuery & DOM Traversal Lesson](http://backend.turing.io/module3/lessons/jquery_dom_traversal_and_manipulation)
 
-Things you may want to cover:
+Run `rake db:setup` & `rake db:seed`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Then `rails s`

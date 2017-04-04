@@ -1,0 +1,22 @@
+<table class="presidents">
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Name</th>
+      <th>Term</th>
+      <th>Party Affiliation</th>
+      <th>Selected</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @presidents.each do |president| %>
+      <tr class="<%= president.className %>">
+          <td class="number"><%= president.position %></td>
+          <td class="name"><%= president.name %></td>
+          <td class="term"><%= president.term %></td>
+          <td class="party"><%= president.party %></td>
+          <td class="selected"><input type="checkbox"></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

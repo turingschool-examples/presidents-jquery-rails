@@ -1,7 +1,15 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+President.create(position: 1, name: 'George Washington', term: '1789-1797', party: 'None', left_office: nil)
+President.create(position: 2, name: 'John Adams', term: '1797-1801', party: 'Federalist', left_office: 'one-term')
+President.create(position: 3, name: 'Thomas Jefferson', term: '1801-1809', party: 'Democratic-Republican', left_office: nil)
+President.create(position: 4, name: 'James Madison', term: '1809-1817', party: 'Democratic-Republican', left_office: nil)
+President.create(position: 5, name: 'James Monroe', term: '1817-1825', party: 'Democratic-Republican', left_office: nil)
+President.create(position: 6, name: 'John Quincy Adams', term: '1825-1829', party: 'National-Republican', left_office: 'one-term')
+President.create(position: 7, name: 'Andrew Jackson', term: '1829-1837', party: 'Democrat', left_office: nil)
+President.create(position: 8, name: 'Martin Van Buren', term: '1837-1841', party: 'Democrat', left_office: 'one-term')
+President.create(position: 9, name: 'William H. Harrison', term: '1841-1841', party: 'Whig', left_office: 'died')
+President.create(position: 10, name: 'John Tyler', term: '1841-1845', party: 'Whig', left_office: nil)
+President.create(position: 11, name: 'James K. Polk', term: '1845-1849', party: 'Democrat', left_office: 'one-term')
+President.create(position: 12, name: 'Zachary Taylor', term: '1849-1850', party: 'Whig', left_office: 'dead')
+President.create(position: 13, name: 'Millard Fillmore', term: '1850-1853', party: 'Whig', left_office: nil)
+President.create(position: 14, name: 'Franklin Pierce', term: '1853-1857', party: 'Democrat', left_office: 'one-term')
+President.create(position: 15, name: 'James Buchanan', term: '1857-1861', party: 'Democrat', left_office: 'one-term')
